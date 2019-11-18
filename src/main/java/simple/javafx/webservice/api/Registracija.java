@@ -38,6 +38,7 @@ public class Registracija extends Controller{
                             "Klaida",
                             JOptionPane.WARNING_MESSAGE);
                     reader.next();
+                    // ghhhhhhhhhhh
                 }
                 if(vardasTextField.getText().equals("") || pavardeTextField.getText().equals("") || prisijungimovardasTextField.getText().equals("") || slaptazodisPasswordField.getText().equals("") || pakartokiteslaptazodiPasswordField.getText().equals("") || elpastasTextField.getText().equals("") || pakartokiteelpastaTextField.getText().equals("") || telefononumerisTextField.getText().equals("") || amziusTextField.getText().equals("") || lytisTextField.getText().equals(""))
                 {
