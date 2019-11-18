@@ -1,2 +1,15 @@
-# programavimo-kalba-java-pratybos-s031199
-programavimo-kalba-java-pratybos-s031199 created by GitHub Classroom
+Course Title: Programavimo kalbos Java praktinės užduotys
+
+Fullname: Vardas, pavardė, grupė: Ernestas Tuzas IS17B.
+
+Software used: Programinė įranga: IntelliJ IDEA.
+
+Document Structure Tree: Katalogų struktūra:
+
+PI16-M.Gzegozevskis
+|
++-- Bandymaslazybuinformacija (Šiame kataloge rasite pirmosios, antrosios, trečiosios, ketvirtosios ir penktosios užduočių realizaciją.)
+|
++-- consoleterminal (Šiame kataloge rasite antrosios užduoties realizaciją.)
+|
++-- README.MD
