@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="592.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="simple.javafx.webservice.api.Registracija">
+   <children>
+      <Text layoutX="125.0" layoutY="359.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pakartokite el. paštą:">
+         <font>
+            <Font size="19.0" />
+         </font></Text>
+      <Text layoutX="217.0" layoutY="317.0" strokeType="OUTSIDE" strokeWidth="0.0" text="El. paštas:">
+         <font>
+            <Font size="19.0" />
+         </font></Text>
+      <Text layoutX="103.0" layoutY="277.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pakartokite slaptažodį:">
+         <font>
+            <Font size="19.0" />
+         </font></Text>
+      <Text layoutX="198.0" layoutY="238.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Slaptažodis:">
+         <font>
+            <Font size="19.0" />
+         </font></Text>
+      <Text layoutX="224.0" layoutY="159.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pavardė:">
+         <font>
+            <Font size="19.0" />
+         </font></Text>
+      <Text layoutX="235.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vardas:">
+         <font>
+            <Font size="19.0" />
+         </font></Text>
+      <Text layoutX="130.0" layoutY="200.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Prisijungimo vardas:">
+         <font>
+            <Font size="19.0" />
+         </font></Text>
+      <Text layoutX="257.0" layoutY="436.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lytis:">
+         <font>
+            <Font size="19.0" />
+         </font></Text>
+      <Text layoutX="231.0" layoutY="477.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Amžius:">
+         <font>
+            <Font size="19.0" />
+         </font></Text>
+      <Text layoutX="147.0" layoutY="398.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Telefono numeris:">
+         <font>
+            <Font size="19.0" />
+         </font></Text>
+      <Text layoutX="233.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="REGISTRACIJA">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <TextField fx:id="vardasTextField" layoutX="302.0" layoutY="90.0" />
+      <TextField fx:id="pavardeTextField" layoutX="302.0" layoutY="136.0" />
+      <TextField fx:id="prisijungimovardasTextField" layoutX="302.0" layoutY="177.0" />
+      <PasswordField fx:id="slaptazodisPasswordField" layoutX="300.0" layoutY="212.0" />
+      <PasswordField fx:id="pakartokiteslaptazodiPasswordField" layoutX="300.0" layoutY="254.0" />
+      <TextField fx:id="elpastasTextField" layoutX="300.0" layoutY="296.0" />
+      <TextField fx:id="pakartokiteelpastaTextField" layoutX="300.0" layoutY="336.0" />
+      <TextField fx:id="telefononumerisTextField" layoutX="300.0" layoutY="375.0" />
+      <TextField fx:id="lytisTextField" layoutX="300.0" layoutY="415.0" />
+      <TextField fx:id="amziusTextField" layoutX="300.0" layoutY="454.0" />
+      <Button fx:id="registruotisButton" layoutX="178.0" layoutY="495.0" mnemonicParsing="false" onAction="#onClickregistruotis" text="Registruotis">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="atsauktiButton" layoutX="318.0" layoutY="495.0" mnemonicParsing="false" onAction="#onClickcancel" text="Atšaukti">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

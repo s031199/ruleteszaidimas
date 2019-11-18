@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane alignment="CENTER" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="simple.javafx.webservice.api.Klaidosispejimasv">
+   <children>
+      <AnchorPane prefHeight="229.0" prefWidth="409.0">
+         <children>
+            <Button fx:id="geraiBtn" layoutX="121.0" layoutY="138.0" mnemonicParsing="false" onAction="#onclickgerai" prefHeight="41.0" prefWidth="168.0" text="Gerai" textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" />
+            <Text layoutX="105.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Prasome uzpildyti tuscius laukus!" textAlignment="CENTER" wrappingWidth="199.6708984375" />
+         </children>
+      </AnchorPane>
+   </children>
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>
